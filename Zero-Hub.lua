@@ -2919,62 +2919,62 @@ local Shop = Library:MakeTab({
 })
 
 local Farm = Library:MakeTab({
-    Title = "Tab Farming",
+    Title = "Farming",
     Icon = "rbxassetid://127561653320876"
 })
 
 local Maestry = Library:MakeTab({
-    Title = "Tab Farm Maestry",
+    Title = "Farm Maestry",
     Icon = "rbxassetid://10709782497"
 })
 
 local Others = Library:MakeTab({
-    Title = "Tab Farm Others",
+    Title = "Farm Others",
     Icon = "rbxassetid://10723405360"
 })
 
 local Event = Library:MakeTab({
-    Title = "Tab Sea Event",
+    Title = "Sea Event",
     Icon = "rbxassetid://10709783577"
 })
 
 local Race = Library:MakeTab({
-    Title = "Tab Race Upgrade",
+    Title = "Race Upgrade",
     Icon = "rbxassetid://115164375298022"
 })
 
 local Dojo = Library:MakeTab({
-    Title = "Tab Dojo Quest & Drago Race",
+    Title = "Dojo Quest & Drago Race",
     Icon = "rbxassetid://91920478152016"
 })
 
 local Esp = Library:MakeTab({
-    Title = "Tab Stats & ESP",
+    Title = "Stats & ESP",
     Icon = "rbxassetid://11155851001"
 })
 
 local Player = Library:MakeTab({
-    Title = "Tab Local Player",
+    Title = "Local Player",
     Icon = "rbxassetid://13075651575"
 })
 
 local Teleport = Library:MakeTab({
-    Title = "Tab Teleport",
+    Title = "Teleport",
     Icon = "rbxassetid://10734886004"
 })
 
 local Get = Library:MakeTab({
-    Title = "Tab Get Items & Upgrade",
+    Title = "Get Items & Upgrade",
     Icon = "rbxassetid://13075622619"
 })
 
 local Fruit = Library:MakeTab({
-    Title = "Tab Raid & Fruit",
+    Title = "Raid & Fruit",
     Icon = "rbxassetid://11155986081"
 })
 
 local Setting = Library:MakeTab({
-    Title = "Tab Settings & Misc",
+    Title = "Settings & Misc",
     Icon = "rbxassetid://7734053495"
 })
 
