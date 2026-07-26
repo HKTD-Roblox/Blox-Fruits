@@ -1,11 +1,11 @@
--- Sourcre By HKTD - Zero
+-- Sourcre By HKTD
 
 if not game:IsLoaded() then
     game.Loaded:Wait()
 end
 StarterGui:SetCore("SendNotification", {
     Title = "Auto Chest Beta",
-    Text = "Script By Zero",
+    Text = "Script By HKTD",
     Duration = 5
 })
 _G.SmoothConfig = {Enabled = false, Speed = 0.1, LowGraphic = true, AntiAfk = true, AntiKick = true}
