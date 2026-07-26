@@ -4,7 +4,7 @@ if not game:IsLoaded() then
     game.Loaded:Wait()
 end
 StarterGui:SetCore("SendNotification", {
-    Title = "Auto Chest Script",
+    Title = "Auto Chest Beta",
     Text = "Script By Zero",
     Duration = 5
 })
