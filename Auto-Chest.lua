@@ -1,3 +1,5 @@
+-- Sourcre By HKTD - Zero
+
 if not game:IsLoaded() then
     game.Loaded:Wait()
 end
