@@ -106,13 +106,13 @@ local function NotificacaoNightMystic(titulo, mensagem)
     end
 end
 
-NotificacaoNightMystic("Zero Hub", "Script carregado com sucesso!")
+NotificacaoNightMystic("HKTD Hub", "Script carregado com sucesso!")
 
 -- ========================================
 -- SAVE SYSTEM (Optimized)
 -- ========================================
 local HttpService = Services.HttpService
-local FolderName = "Zero Hub"
+local FolderName = "HKTD Hub"
 local FileName = "Settings.json"
 local FullPath = FolderName .. "/" .. FileName
 
@@ -898,7 +898,7 @@ GetConnectionEnemies = function(I)
 		end;
 	end;
 -- ============================================================
--- ULTRA OPTIMIZER v5.0 — Zero Hub
+-- ULTRA OPTIMIZER v5.0 — HKTD Hub
 -- Tối ưu FPS, dọn RAM, xóa hiệu ứng, giảm lag toàn diện
 -- ============================================================
 _G.OptimizerActive = false
@@ -2823,9 +2823,9 @@ local function T(s)
 end
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/VTDROBLOX/Animehub/refs/heads/main/ui_tay.txt"))():MakeWindow({
-    Title = "Zero Hub Beta",
-      SubTitle = "By ZERO",
-    SaveFolder = "zero.json"
+    Title = "HKTD Hub Beta",
+      SubTitle = "By HKTD",
+    SaveFolder = "hktd.json"
 })
 -- Criar ScreenGui
 local screenGui = Instance.new("ScreenGui")
@@ -3020,9 +3020,9 @@ LangTab:AddToggle({
             end)
             -- Thong bao reload
             if _G.Lang == "EN" then
-                NotificacaoNightMystic("Zero Hub", "🇺🇸 Switched to English! Reloading...")
+                NotificacaoNightMystic("HKTD Hub", "🇺🇸 Switched to English! Reloading...")
             else
-                NotificacaoNightMystic("Zero Hub", "🇻🇳 Chuyển Tiếng Việt! Đang tải lại...")
+                NotificacaoNightMystic("HKTD Hub", "🇻🇳 Chuyển Tiếng Việt! Đang tải lại...")
             end
             task.wait(1)
             -- Re-execute script tu GitHub
@@ -3031,16 +3031,16 @@ LangTab:AddToggle({
     end
 })
 Discord:AddDiscordInvite({
-    Name = "Zero Hub",
+    Name = "HKTD Hub",
     Description = "Join My Disocrd Server Now!",
     Logo = "rbxassetid://91222518412026",
-    Invite = "https://discord.gg/zZyUEu4N6N"
+    Invite = "https://discord.gg/RNgyh8MhxN"
 })
 local credits = Discord:AddParagraph({
-    Title = "Credits For Someone Peoples!",
+    Title = "Credits!",
     Desc = ""
 })
-credits:SetDesc("hktd_roblox, zero")
+credits:SetDesc("hktd_roblox")
 
 Shop:AddSection("Fighting Shop")
 Shop:AddButton({
@@ -4772,7 +4772,7 @@ Setting:AddButton({
             
             -- Notificação Universal (Funciona sem a lib Fluent)
             game.StarterGui:SetCore("SendNotification", {
-                Title = "Zero Hub",
+                Title = "HKTD Hub",
                 Text = "Configurações salvas com sucesso!",
                 Duration = 5
             })
@@ -4793,13 +4793,13 @@ Setting:AddButton({
             
             -- Notificação Universal
             game.StarterGui:SetCore("SendNotification", {
-                Title = "Zero Hub",
+                Title = "HKTD Hub",
                 Text = "Configurações resetadas! Re-execute o script.",
                 Duration = 5
             })
         else
             game.StarterGui:SetCore("SendNotification", {
-                Title = "Zero Hub",
+                Title = "HKTD Hub",
                 Text = "Nenhum arquivo de save encontrado para apagar.",
                 Duration = 3
             })
@@ -12438,7 +12438,7 @@ Setting:AddButton({
     Description = "Chạy toàn bộ: xóa hiệu ứng, dọn RAM, giảm render, tắt shadow",
     Callback = function()
         LowCpu()
-        NotificacaoNightMystic("Zero Hub", "✅ Ultra Optimizer đã kích hoạt!")
+        NotificacaoNightMystic("HKTD Hub", "✅ Ultra Optimizer đã kích hoạt!")
     end
 });
 
@@ -12457,7 +12457,7 @@ Setting:AddButton({
         end)
         pcall(function() collectgarbage("collect") end)
         pcall(function() collectgarbage() end)
-        NotificacaoNightMystic("Zero Hub", "🧹 RAM đã được dọn sạch!")
+        NotificacaoNightMystic("HKTD Hub", "🧹 RAM đã được dọn sạch!")
     end
 });
 
@@ -12485,7 +12485,7 @@ Setting:AddButton({
             CleanFolder(workspace:FindFirstChild("Characters"))
             CleanFolder(workspace:FindFirstChild("SeaBeasts"))
         end)
-        NotificacaoNightMystic("Zero Hub", "✨ Đã xóa hiệu ứng NPC!")
+        NotificacaoNightMystic("HKTD Hub", "✨ Đã xóa hiệu ứng NPC!")
     end
 });
 
@@ -12512,7 +12512,7 @@ Setting:AddButton({
                 end
             end)
         end)
-        NotificacaoNightMystic("Zero Hub", "🌑 Đang tắt shadow toàn map...")
+        NotificacaoNightMystic("HKTD Hub", "🌑 Đang tắt shadow toàn map...")
     end
 });
 
@@ -12534,7 +12534,7 @@ Setting:AddButton({
             L.FogStart = 9e9
             L.Brightness = 2
         end)
-        NotificacaoNightMystic("Zero Hub", "💡 Đã xóa post-processing!")
+        NotificacaoNightMystic("HKTD Hub", "💡 Đã xóa post-processing!")
     end
 });
 
@@ -12546,7 +12546,7 @@ Setting:AddButton({
         pcall(function()
             UserSettings():GetService("UserGameSettings").SavedQualityLevel = Enum.SavedQualitySetting.QualityLevel01
         end)
-        NotificacaoNightMystic("Zero Hub", "🎮 Render Quality → Level 1!")
+        NotificacaoNightMystic("HKTD Hub", "🎮 Render Quality → Level 1!")
     end
 });
 
@@ -12571,9 +12571,9 @@ Setting:AddToggle({
                     pcall(function() collectgarbage() end)
                 end
             end)
-            NotificacaoNightMystic("Zero Hub", "🔄 Auto RAM Clean: BẬT")
+            NotificacaoNightMystic("HKTD Hub", "🔄 Auto RAM Clean: BẬT")
         else
-            NotificacaoNightMystic("Zero Hub", "🔄 Auto RAM Clean: TẮT")
+            NotificacaoNightMystic("HKTD Hub", "🔄 Auto RAM Clean: TẮT")
         end
     end
 });
@@ -12592,7 +12592,7 @@ Setting:AddButton({
             end)
         end
         getgenv().gg_scripters = "Aori0001"
-        NotificacaoNightMystic("Zero Hub", "📺 Stretch Screen đã bật!")
+        NotificacaoNightMystic("HKTD Hub", "📺 Stretch Screen đã bật!")
     end
 });
 local V5 = game.Players.LocalPlayer;
@@ -12715,6 +12715,6 @@ end)
 _ENV.rz_FastAttack = FastAttack
 FastAttackModule.FastAttack = FastAttack
 
-NotificacaoNightMystic("Zero Hub", "✅ Complete")
+NotificacaoNightMystic("HKTD Hub", "✅ Complete")
 
 -- FastAttackModule loaded
