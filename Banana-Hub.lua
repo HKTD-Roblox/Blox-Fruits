@@ -62,7 +62,7 @@ local plr = Player
 local Root = HumanoidRootPart
 
 -- ==========================================
--- LOAD UI LIBRARY (HDanh Hub)
+-- LOAD UI LIBRARY (Banana Hub)
 -- ==========================================
 Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhhub/UI/refs/heads/main/ui_BananaHub_lua.txt"))()
 
