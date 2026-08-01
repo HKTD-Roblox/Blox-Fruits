@@ -3767,6 +3767,27 @@ v484:AddDiscordInvite({
     Logo = "rbxassetid://131723242350068",
     Invite = "https://discord.gg/RNgyh8MhxN"
 })
+v484:AddButton({
+    Title = "HKTD Roblox",
+	Description = "My TikTok Channel",
+    Callback = function()
+        setclipboard("https://tiktok.com/@hktd_roblox")
+    end
+})
+v484:AddButton({
+    Title = "HKTD Roblox",
+	Description = "My Youtube Channel",
+    Callback = function()
+        setclipboard("Coming soon!")
+    end
+})
+v484:AddButton({
+    Title = "HKTD-Roblox",
+	Description = "My GitHub Account",
+    Callback = function()
+        setclipboard("https://github.com/HKTD-Roblox")
+    end
+})
 _G.SelectWeapon = "Melee"
 task.spawn(function()
     while task.wait() do
