@@ -1,11 +1,11 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhhub/hdanhhub/refs/heads/main/fixlagbyhdanh.lua"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDangNhoEm/TuanAnhIOS/refs/heads/main/koby"))()
 
--- ==========================================
--- SERVICES
--- ==========================================
-local Players = game:GetService("Players")
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	-- ==========================================
+	-- SERVICES
+	-- ==========================================
+	local Players = game:GetService("Players")
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Workspace = game:GetService("Workspace")
 local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
@@ -62,12 +62,12 @@ local plr = Player
 local Root = HumanoidRootPart
 
 -- ==========================================
--- LOAD UI LIBRARY (Banana Hub)
+-- LOAD UI LIBRARY (Banana Cat Hub)
 -- ==========================================
 Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhhub/UI/refs/heads/main/ui_BananaHub_lua.txt"))()
 
 Window = Library:CreateWindow({
-    Title = "Banana Hub",
+    Title = "Banana Cat Hub",
     Desc = "- Blox Fruit",
     Image = "rbxassetid://123613996022560"
 })
@@ -353,7 +353,7 @@ end)
 wait(1)
 
 Library:Notify({
-    Title = "Banana Hub",
+    Title = "Banana Cat Hub",
     Description = "Chào mừng! UI màu hồng đã được load thành công.\nNhấn nút góc trái màn hình để mở GUI.",
     Duration = 4
 })
@@ -2945,54 +2945,37 @@ task.defer(function()
     end
 end)
 Tabs.Info:AddSection("Thông Tin")
+Tabs.Info:AddParagraph({
+    ["Title"] = "Devloper By HKTD",
+    ["Description"] = "Phát Triển bởi HKTD"
+})
 Tabs.Info:AddButton({
     ["Title"] = "HKTD Community",
-    ["Description"] = "Discord",
+    ["Description"] = "My Discord Server",
     ["Callback"] = function()
         setclipboard(tostring("https://discord.gg/RNgyh8MhxN"))
     end
 })
 Tabs.Info:AddButton({
     ["Title"] = "HKTD Roblox",
-    ["Description"] = "Youtube",
-    ["Callback"] = function()
-        setclipboard(tostring("Coming Soon"))
-    end
-})
-Tabs.Info:AddButton({
-    ["Title"] = "HKTD Roblox",
-    ["Description"] = "Tiktok",
+    ["Description"] = "My Tiktok Channel",
     ["Callback"] = function()
         setclipboard(tostring("https://www.tiktok.com/@hktd_roblox"))
     end
 })
-Tabs.Info:AddParagraph({
-    ["Title"] = "Devloper By HKTD",
-    ["Description"] = "Phát Triển bởi HKTD"
+Tabs.Info:AddButton({
+    ["Title"] = "HKTD Roblox",
+    ["Description"] = "My Youtube Channel",
+    ["Callback"] = function()
+        setclipboard(tostring("Coming Soon!"))
+    end
 })
-local v252 = nil
-if identifyexecutor then
-    v252 = identifyexecutor()
-elseif getexecutorname then
-    v252 = getexecutorname()
-end
-if v252 then
-    Tabs.Info:AddParagraph({
-        ["Title"] = "Client Đang Dùng",
-        ["Description"] = v252
-    })
-end
-Tabs.Info:AddParagraph({
-    ["Title"] = "Cập Nhật",
-    ["Description"] = "Tôi sẽ Cập nhật nhiều tính năng hơn trong tương lai"
-})
-Tabs.Info:AddParagraph({
-    ["Title"] = "Các Client Android và Ios Hợ Trợ",
-    ["Description"] = "Tất Cả Client Android và Ios "
-})
-Tabs.Info:AddParagraph({
-    ["Title"] = "Các Client Pc Hợ Trợ",
-    ["Description"] = "Tất Cả Client Pc"
+Tabs.Info:AddButton({
+    ["Title"] = "HKTD-Roblox",
+    ["Description"] = "My GitHub Account",
+    ["Callback"] = function()
+        setclipboard(tostring("https://github.com/HKTD-Roblox"))
+    end
 })
 _G.FastAttackStrix_Mode = "Super Fast Attack"
 spawn(function()
@@ -12060,4 +12043,4 @@ Tabs.Misc:AddButton({
 })
 
 -- ===============================================================
-print('✅ Banana Hub - Tất cả tính năng đã được load!')
+print('✅ Banana Cat Hub - Tất cả tính năng đã được load!')
