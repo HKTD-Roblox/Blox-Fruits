@@ -1,5 +1,5 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTD-Roblox/Script-Beta/refs/heads/main/Loading-Fix-Lag.lua"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDangNhoEm/TuanAnhIOS/refs/heads/main/koby"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTD-Roblox/Script-Beta/refs/heads/main/Fast-Attack.lua"))()
 
 	-- ==========================================
 	-- SERVICES
@@ -64,7 +64,7 @@ local Root = HumanoidRootPart
 -- ==========================================
 -- LOAD UI LIBRARY (Banana Cat Hub)
 -- ==========================================
-Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhhub/UI/refs/heads/main/ui_BananaHub_lua.txt"))()
+Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTD-Roblox/Banana-Cat-Hub/refs/heads/main/UI-Library"))()
 
 Window = Library:CreateWindow({
     Title = "Banana Cat Hub",
