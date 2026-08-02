@@ -8,7 +8,7 @@ local Plr = Players.LocalPlayer
 
 if Settings.Translator == true then
     pcall(function()
-        _G.RedzTranslator = HttpService:JSONDecode(game:HttpGet("https://raw.githubusercontent.com/PlockScripts/newredz/refs/heads/main/Translator/Portuguese.json"))
+        _G.RedzTranslator = HttpService:JSONDecode(game:HttpGet("https://raw.githubusercontent.com/HKTD-Roblox/Source-Redz/refs/heads/main/Translator.lua"))
     end)
 end
 
@@ -3736,7 +3736,7 @@ function CheckItemBPCRBPCR(v463)
         end
     end
 end
-local vu32 = loadstring(game:HttpGet("https://raw.githubusercontent.com/PlockScripts/Library-ui/refs/heads/main/NewLibrary-Remake"))()
+local vu32 = loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTD-Roblox/Source-Redz/refs/heads/main/UI-Library.lua"))()
 local v466 = vu32:MakeWindow({
     Title = "Redz Hub",
     SubTitle = "Blox Fruits",
@@ -9076,7 +9076,7 @@ v497:AddToggle({
 
 local _ = v494:AddSection({"Aimbot Nearest"})
 
-local v1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/PlockScripts/Aimbot-skill-config/refs/heads/main/Aimbot.lua"))()
+local v1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTD-Roblox/Source-Redz/refs/heads/main/Aimbot.lua"))()
 
 local AimbotEnabled = false
 local AimPlayers = false
@@ -9182,7 +9182,7 @@ v494:AddToggle({
 })
 
 local _ = v494:AddSection({"Aimbot skill V2"})
-local v1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/PlockScripts/Aimbot-skill-config/refs/heads/main/Aimbot.lua"))()
+local v1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTD-Roblox/Source-Redz/refs/heads/main/Aimbot.lua"))()
 
 local AimbotEnabled = false
 local AimPlayers = false
