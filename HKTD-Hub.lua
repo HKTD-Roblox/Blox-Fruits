@@ -3738,13 +3738,13 @@ function CheckItemBPCRBPCR(v463)
 end
 local vu32 = loadstring(game:HttpGet("https://raw.githubusercontent.com/PlockScripts/Library-ui/refs/heads/main/NewLibrary-Remake"))()
 local v466 = vu32:MakeWindow({
-    Title = "HKTD Hub",
+    Title = "Redz Hub",
     SubTitle = "Blox Fruits",
-    SaveFolder = "HKTD Hub"
+    SaveFolder = "Redz Hub"
 })
 
 v466:AddMinimizeButton({
-    Button = { Image = "rbxassetid://83858212324925", BackgroundTransparency = 0 },
+    Button = { Image = "rbxassetid://15298567397", BackgroundTransparency = 0 },
     Size = UDim2.new(0, 35, 0, 35),
     Corner = { CornerRadius = UDim.new(0.25, 0) },
 })
