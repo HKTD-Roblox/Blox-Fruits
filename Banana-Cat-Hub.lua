@@ -68,7 +68,7 @@ Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTD-Roblox
 
 Window = Library:CreateWindow({
     Title = "Banana Cat Hub",
-    Desc = "- Blox Fruit",
+    Desc = "- Blox Fruits",
     Image = "rbxassetid://123613996022560"
 })
 
