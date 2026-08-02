@@ -3738,18 +3738,18 @@ function CheckItemBPCRBPCR(v463)
 end
 local vu32 = loadstring(game:HttpGet("https://raw.githubusercontent.com/PlockScripts/Library-ui/refs/heads/main/NewLibrary-Remake"))()
 local v466 = vu32:MakeWindow({
-    Title = "Redz Hub",
-    SubTitle = "By HKTD",
-    SaveFolder = "Redz Hub"
+    Title = "HKTD Hub",
+    SubTitle = "Blox Fruits",
+    SaveFolder = "HKTD Hub"
 })
 
 v466:AddMinimizeButton({
-    Button = { Image = "rbxassetid://15298567397", BackgroundTransparency = 0 },
+    Button = { Image = "rbxassetid://83858212324925", BackgroundTransparency = 0 },
     Size = UDim2.new(0, 35, 0, 35),
     Corner = { CornerRadius = UDim.new(0.25, 0) },
 })
 
-local v484 = v466:MakeTab({"Discord", "info"})
+local v484 = v466:MakeTab({"Info", "info"})
 local v485 = v466:MakeTab({"Farm", "home"})
 local v487 = v466:MakeTab({"Quest | Items", "swords"})
 local v486 = v466:MakeTab({"Auto Fishing", "rbxassetid://127664059821666"})
@@ -3764,7 +3764,7 @@ local v496 = v466:MakeTab({"Misc", "settings"})
 v484:AddDiscordInvite({
     Name = "HKTD Community",
     Description = "Join My Server Now!",
-    Logo = "rbxassetid://131723242350068",
+    Logo = "rbxassetid://83858212324925",
     Invite = "https://discord.gg/RNgyh8MhxN"
 })
 v484:AddButton({
@@ -6655,7 +6655,7 @@ if World3 then
                                     if not l_Character_7:FindFirstChild("Tushita") and not l_Backpack_1:FindFirstChild("Tushita") then
                                         if not v798 then
                                             game.StarterGui:SetCore("SendNotification", {
-                                                Title = "Tu   n Anh IOS",
+                                                Title = "HKTD Hub",
                                                 Text = "Use! - Yama or Tushita",
                                                 con = "rbxassetid://131185267344742",
                                                 Duration = 10
